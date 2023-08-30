@@ -27,7 +27,8 @@
                 <div class="slides-container" id="slides-container-main">
                     
                     <!-- slides -->
-                    <div class="slide active" @mousOver="doesWork()" @mouseLeave="setAutoplay()" @click="doesWork()">
+                    <!--*                     |-------------------------bonus 3----------------------| -->
+                    <div class="slide active" @mouseover="stopAutoplay()" @mouseleave="setAutoplay()" >
                     
                         <!-- title -->
                         <h2 class="slide-title">
